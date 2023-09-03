@@ -96,6 +96,22 @@ body {
     -ms-transition: none !important;
     transition: none !important; }
 
+#ranktable img{
+    height:240px;
+    width:148px;
+    object-fit: contain;
+}
+
+#ranktable td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#ranktable td:nth-of-type(1) {
+  font-weight: bold;
+}
+  
+
 /* Type */
 body, input, select, textarea {
   color: #686e74;
@@ -1469,6 +1485,7 @@ table {
     color: #3d4449;
     font-size: 0.9em;
     font-weight: 600;
+    white-space: nowrap;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
